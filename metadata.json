@@ -1,0 +1,6 @@
+{
+  "name": "HEAD ZONE Luxury Salon",
+  "description": "Premium hair styling, grooming, and bespoke beauty services in Haridwar. Experience the art of grooming at Head Zone.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
