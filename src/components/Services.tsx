@@ -80,9 +80,12 @@ export const Services: React.FC<ServicesProps> = ({ onSelectServiceForBooking })
               <div className="relative aspect-[4/3] w-full overflow-hidden bg-[#111111]">
                 <img
                   src={service.image}
-                  alt={service.title}
+                  alt={`${service.title} - Professional salon service at HEAD ZONE Haridwar`}
                   className="w-full h-full object-cover object-center group-hover:scale-108 transition-transform duration-700 brightness-95 contrast-105"
                   loading="lazy"
+                  decoding="async"
+                  width={800}
+                  height={600}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#191919] via-transparent to-transparent opacity-80" />
 

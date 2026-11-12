@@ -41,6 +41,7 @@ export const Statistics: React.FC = () => {
       aria-label="Salon Trust & Statistics"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="sr-only">HEAD ZONE Salon Trust, Customer Reviews &amp; Ratings</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 divide-y sm:divide-y-0 sm:divide-x divide-[#242424]">
           {stats.map((stat, idx) => {
             const Icon = stat.icon;

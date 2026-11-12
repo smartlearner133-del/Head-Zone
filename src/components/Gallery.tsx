@@ -96,9 +96,12 @@ export const Gallery: React.FC = () => {
                 {/* Image with zoom effect */}
                 <img
                   src={item.image}
-                  alt={item.title}
+                  alt={`${item.title} - ${item.category} portfolio at HEAD ZONE Luxury Salon Haridwar`}
                   className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-700 brightness-95 group-hover:brightness-105"
                   loading="lazy"
+                  decoding="async"
+                  width={1000}
+                  height={1000}
                 />
 
                 {/* Dark Vignette Overlay */}

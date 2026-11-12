@@ -23,9 +23,12 @@ export const About: React.FC<AboutProps> = ({ onDiscover }) => {
               <div className="relative rounded-sm overflow-hidden border border-[#242424] shadow-2xl bg-[#191919] aspect-[4/5] group">
                 <img
                   src={SALON_DATA.about.primaryImage}
-                  alt="Head Zone Salon Hairstyling Precision"
+                  alt="Master stylist providing precision haircut and styling at HEAD ZONE Salon in Haridwar"
                   className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
                   loading="lazy"
+                  decoding="async"
+                  width={1200}
+                  height={1500}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
                 
@@ -49,9 +52,12 @@ export const About: React.FC<AboutProps> = ({ onDiscover }) => {
               <div className="hidden sm:block absolute -bottom-8 -right-8 w-1/2 aspect-[4/3] rounded-sm overflow-hidden border-2 border-[#D6B36A]/40 shadow-2xl bg-[#151515]">
                 <img
                   src={SALON_DATA.about.secondaryImage}
-                  alt="Modern Hairstyling Session"
+                  alt="Client receiving personalized modern hairstyle treatment at HEAD ZONE Haridwar"
                   className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-500"
                   loading="lazy"
+                  decoding="async"
+                  width={800}
+                  height={600}
                 />
               </div>
 

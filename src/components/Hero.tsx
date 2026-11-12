@@ -18,9 +18,12 @@ export const Hero: React.FC<HeroProps> = ({ onExploreServices, onBookAppointment
       <div className="absolute inset-0 z-0">
         <img
           src={SALON_DATA.hero.bgImage}
-          alt="Head Zone Luxury Salon Interior & Grooming Experience"
+          alt="Luxury styling stations and interior of HEAD ZONE Salon in Govindpuri, Haridwar"
           className="w-full h-full object-cover object-center scale-105 opacity-40 brightness-90 contrast-110"
           loading="eager"
+          decoding="async"
+          width={2000}
+          height={1333}
         />
         {/* Multilayer Dark Overlays for Ultra Editorial Luxury Vibe */}
         <div className="absolute inset-0 bg-gradient-to-t from-[#111111] via-[#111111]/75 to-[#111111]/90" />
@@ -42,8 +45,9 @@ export const Hero: React.FC<HeroProps> = ({ onExploreServices, onBookAppointment
           <span>Hairstyling & Grooming Atelier · Haridwar</span>
         </div>
 
-        {/* Main Heading: Oversized Editorial Typography */}
+        {/* Main Heading: Oversized Editorial Typography with Semantic Brand Name */}
         <h1 className="font-serif text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight text-[#F5F2ED] leading-[1.08] mb-6 drop-shadow-md">
+          <span className="sr-only">HEAD ZONE Luxury Salon Haridwar — </span>
           YOUR STYLE. <br />
           <span className="gold-gradient-text italic font-normal">YOUR STATEMENT.</span>
         </h1>
